@@ -1,16 +1,29 @@
 # README
 
 # Setup
-- Install ruby
-  - then: `gem install rails`
-- Install redis
-- Install neo4j
-  - then: `bundle exec rake neo4j:start`
+- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+  - then install Rails: `gem install rails`
+- Install [Redis](https://redis.io/topics/quickstart)
+- Install [Neo4j](https://neo4j.com/docs/operations-manual/current/installation/)
 
 # How to Use?
-- Start the **Server** with: `bundle exec rails s -p 3010`
+- Start **Neo4j Server** with:
+    `bundle exec rake neo4j:start`
+- Start the **Application Server** with:
+    `bundle exec rails s -p 3010`
 
-## Redis:
+## Save triple in Redis and Neo4j at the Same Time:
+ - Send a POST to `http://localhost:3010/insert-data` with body:
+    ```json
+    {"data": "[[\"John\",\"Is a Friend of\",\"James\"],[\"James\",\"Is a Friend of\",\"Jesse\"],[\"Jill\",\"Is a friend of\",\"Doug\"],[\"Jill\",\"Likes\",\"Snowboarding\"],[\"Snowboarding\",\"Is a\",\"Sport\"]]" }
+    ```
+    It'll persist this graph in Redis Following the strategy:
+     - `"subject predicate" => "object"`
+    It'll persist this graph in Neo4j Following the strategy:
+    - `subject:Type -[predicate]- object:Type`
+
+
+## Save triple in Redis:
  - Send a POST to `http://localhost:3010/save-triple-to-redis` with body:
     ```json
     {"data": "[[\"John\",\"Is a Friend of\",\"James\"],[\"James\",\"Is a Friend of\",\"Jesse\"],[\"Jill\",\"Is a friend of\",\"Doug\"],[\"Jill\",\"Likes\",\"Snowboarding\"],[\"Snowboarding\",\"Is a\",\"Sport\"]]" }
@@ -22,7 +35,7 @@
   - GET `http://localhost:3010/recover-object-redis?data=["subject", "predicate"]`
     - Will return `object`
 
-## Neo4j:
+## Save triple in Neo4j:
 - Send a POST to `http://localhost:3010/save-triple-to-neo4j` with body:
    ```json
    {"data": "[[\"John\",\"Is a Friend of\",\"James\"],[\"James\",\"Is a Friend of\",\"Jesse\"],[\"Jill\",\"Is a friend of\",\"Doug\"],[\"Jill\",\"Likes\",\"Snowboarding\"],[\"Snowboarding\",\"Is a\",\"Sport\"]]" }
