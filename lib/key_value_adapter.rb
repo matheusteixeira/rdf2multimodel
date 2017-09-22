@@ -7,12 +7,9 @@ class KeyValueAdapter
   end
 
   def insert_data
-    set = JSON.parse(data)
-
-    set.each do |triple|
+    data.each do |triple|
       save_triple(triple)
     end
-    head :ok
   end
 
   def save_triple(triple)
