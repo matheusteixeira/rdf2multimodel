@@ -8,7 +8,7 @@ class ParserController < ApplicationController
   def parse
     result = execute(translate_pattern + translate_result + query_modifier)
 
-    # TODO: Resultado ser uma tripla
+    # TODO: Return result as a triple
     render json: result
   end
 

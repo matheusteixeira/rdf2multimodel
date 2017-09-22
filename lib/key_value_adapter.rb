@@ -20,16 +20,16 @@ class KeyValueAdapter
   end
 
   def load_data
-    key = "#{data.first}|#{data.second}"
+    key = "#{data.first}:#{data.second}"
 
     render json: redis.smembers(key), head: :ok
   end
 
   def key(triple)
-    "#{triple.first}|#{triple.second}"
+    "#{triple.first}:#{triple.second}"
   end
 
-  # TO DO: Fazer a inserção ao contrário
+  # TODO: Insert it using predicate => subject:predicate:object
 
   def value(triple)
     triple[2]
