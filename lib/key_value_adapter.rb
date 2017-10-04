@@ -19,17 +19,17 @@ class KeyValueAdapter
   end
 
   def load_data
-    key = "#{data.first}:#{data.second}"
+    key = "#{data.first.upcase}:#{data.second.upcase}"
 
-    render json: redis.smembers(key), head: :ok
+    redis.smembers(key)
   end
 
   def key_sp(triple)
-    "#{triple.first}:#{triple.second}"
+    "#{triple.first.upcase}:#{triple.second.upcase}"
   end
 
   def value_sp(triple)
-    triple[2]
+    triple[2].upcase
   end
 
   # p = predicate
@@ -38,11 +38,11 @@ class KeyValueAdapter
   end
 
   def key_p(triple)
-    triple.second
+    triple.second.upcase
   end
 
   def value_p(triple)
-    "#{triple.first}:#{triple.second}:#{triple.last}"
+    "#{triple.first.upcase}:#{triple.second.upcase}:#{triple.last.upcase}"
   end
 
   private

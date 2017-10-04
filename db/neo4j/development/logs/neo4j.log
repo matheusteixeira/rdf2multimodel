@@ -167,3 +167,15 @@ nohup: ignoring input
 2017-09-20 21:39:16.525+0000 INFO    GraphDatabaseService.execute_sparql: execute a SPARQL query.
 2017-09-20 21:39:16.525+0000 INFO    GraphDatabaseService.insert_quad: execute a SPARQL query.
 2017-09-20 21:39:17.682+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-10-02 00:50:55.234+0000 INFO  ======== Neo4j 3.2.3 ========
+2017-10-02 00:50:55.362+0000 INFO  Starting...
+2017-10-02 00:50:57.485+0000 INFO  Bolt enabled on localhost:7472.
+2017-10-02 00:51:03.032+0000 INFO  Started.
+2017-10-02 00:51:04.535+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-10-04 13:01:16.742+0000 INFO  ======== Neo4j 3.2.3 ========
+2017-10-04 13:01:16.881+0000 INFO  Starting...
+2017-10-04 13:01:19.412+0000 INFO  Bolt enabled on localhost:7472.
+2017-10-04 13:01:25.108+0000 INFO  Started.
+2017-10-04 13:01:26.626+0000 INFO  Remote interface available at http://localhost:7474/
