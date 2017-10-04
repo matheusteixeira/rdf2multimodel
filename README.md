@@ -50,7 +50,7 @@
 
 
   - Simple SPARQL to Cypher Adapter for a FOAF query:
-    `http://localhost:3010/parse`
+    `http://localhost:3010/parse?query=SELECT ?p WHERE { ?p r:IS_A_FRIEND_OF ?p . } LIMIT 5}`
     json: `{"query": "SELECT ?p WHERE { ?p r:IS_A_FRIEND_OF ?p . } LIMIT 1" }`
     translates to: `MATCH p=()-[r:IS_A_FRIEND_OF]->() RETURN p LIMIT 1`
 

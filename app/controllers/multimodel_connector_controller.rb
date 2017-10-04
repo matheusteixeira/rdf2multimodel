@@ -3,7 +3,7 @@ class MultimodelConnectorController < ApplicationController
     ::GraphAdapter.new(data).insert_data
     ::KeyValueAdapter.new(data).insert_data
 
-    head :ok
+    render json: 'Data has been insert with success!'.to_json, status: :ok
   end
 
   private

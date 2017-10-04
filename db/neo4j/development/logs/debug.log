@@ -4629,3 +4629,797 @@ Storage files: (filename : modification date - size)
 2017-09-20 21:39:13.781+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
 2017-09-20 21:39:16.277+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
 2017-09-20 21:39:17.682+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-10-02 00:50:55.537+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3103987712 bytes will be used instead. 
+2017-10-02 00:50:56.416+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-10-02 00:50:56.620+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-10-02 00:50:56.645+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-10-02 00:50:56.645+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-10-02 00:50:56.645+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=false
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.type=BOLT
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.listen_address=localhost:7474
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=false
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.type=HTTP
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.tx_log.rotation.retention_policy=1 days
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.listen_address=localhost:7473
+2017-10-02 00:50:56.646+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.listen_address=localhost:7472
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.type=HTTP
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2017-10-02 00:50:56.647+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2017-10-02 00:50:56.664+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 7,71 GB
+2017-10-02 00:50:56.665+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 3,30 GB
+2017-10-02 00:50:56.665+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 4,82 GB
+2017-10-02 00:50:56.665+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 7,92 GB
+2017-10-02 00:50:56.666+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 7,92 GB
+2017-10-02 00:50:56.666+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-10-02 00:50:56.666+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 64,05 MB
+2017-10-02 00:50:56.666+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 124,00 MB
+2017-10-02 00:50:56.666+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 1,93 GB
+2017-10-02 00:50:56.686+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-10-02 00:50:56.686+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-10-02 00:50:56.687+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=4,94 MB, used=4,90 MB, max=240,00 MB, threshold=0,00 B
+2017-10-02 00:50:56.688+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=13,50 MB, used=12,54 MB, max=-1,00 B, threshold=0,00 B
+2017-10-02 00:50:56.688+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2,00 MB, used=1,69 MB, max=1,00 GB, threshold=0,00 B
+2017-10-02 00:50:56.688+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=55,00 MB, used=25,00 MB, max=-1,00 B, threshold=?
+2017-10-02 00:50:56.689+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=2,00 MB, used=2,00 MB, max=-1,00 B, threshold=?
+2017-10-02 00:50:56.689+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=67,00 MB, used=32,45 MB, max=1,93 GB, threshold=0,00 B
+2017-10-02 00:50:56.689+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-10-02 00:50:56.690+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.10.0-35-generic; arch: amd64; cpus: 4
+2017-10-02 00:50:56.690+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 4096
+2017-10-02 00:50:56.690+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 101
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 17959@RD1489
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: America/Sao_Paulo
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-10-02 00:50:56.691+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.144-b01
+2017-10-02 00:50:56.692+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-10-02 00:50:56.693+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-10-02 00:50:56.693+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-bolt-3.2.3.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-http-9.2.9.v20150224.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-frontend-3.1-3.1.5.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-import-tool-3.2.3.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/conf/
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/scala-reflect-2.11.8.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/bcprov-jdk15on-1.53.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar
+2017-10-02 00:50:56.695+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-jmx-3.2.3.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-udc-3.2.3.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-logging-3.2.3.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/plugins/*
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-security-3.2.3.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-lang-2.6.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jackson-core-asl-1.9.13.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jsr311-api-1.1.2.r612.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-unsafe-3.2.3.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/netty-all-4.1.8.Final.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-io-2.4.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-frontend-3.2-3.2.3.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-xml-9.2.9.v20150224.jar
+2017-10-02 00:50:56.696+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-compiler-3.1-3.1.5.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/caffeine-2.3.3.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/asm-5.2.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-lucene-upgrade-3.2.3.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-lucene-index-3.2.3.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-3.2.3.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/parboiled-scala_2.11-1.1.7.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-server-3.2.3.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/parboiled-core-1.1.7.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-queryparser-5.5.0.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/server-api-3.2.3.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jackson-jaxrs-1.9.13.jar
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/plugins/
+2017-10-02 00:50:56.697+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-core-1.19.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jline-2.12.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-shell-3.2.3.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/mimepull-1.9.3.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/bcpkix-jdk15on-1.53.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-util-9.2.9.v20150224.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-frontend-2.3-2.3.11.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-common-3.2.3.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-browser-3.0.5.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-logging-1.1.1.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-io-3.2.3.jar
+2017-10-02 00:50:56.698+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/rhino-1.7R4.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-servlet-1.19.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-io-9.2.9.v20150224.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-codegen-3.2.3.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/scala-library-2.11.8.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-resource-3.2.3.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-graph-matching-3.1.3.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jackson-mapper-asl-1.9.13.jar
+2017-10-02 00:50:56.699+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-collections-3.2.3.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/javax.servlet-api-3.1.0.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-compiler-2.3-2.3.11.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-core-5.5.0.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-csv-3.2.3.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-index-3.2.3.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-compress-1.12.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-multipart-1.19.jar
+2017-10-02 00:50:56.700+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-command-line-3.2.3.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-server-1.19.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/classes
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-digester-2.1.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-codecs-5.5.0.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-security-9.2.9.v20150224.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-configuration-3.2.3.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-kernel-3.2.3.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-configuration-1.10.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-ir-3.2-3.2.3.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-beanutils-1.8.3.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-consistency-check-3.2.3.jar
+2017-10-02 00:50:56.701+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-compiler-3.2-3.2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-graph-algo-3.2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-server-9.2.9.v20150224.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-primitive-collections-3.2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-dbms-3.2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-lang3-3.3.2.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/opencsv-2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-analyzers-common-5.5.0.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-ssl-3.2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-graphdb-api-3.2.3.jar
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2017-10-02 00:50:56.702+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] /lib64
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] /lib
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] user.country.format = BR
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-10-02 00:50:56.703+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /home/thiagochiarato/TCC/rdf2multimodel
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /home/thiagochiarato
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = America/Sao_Paulo
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = thiagochiarato
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development --config-dir=/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/conf
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-10-02 00:50:56.704+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] user.language.format = pt
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = gnome
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-10-02 00:50:56.705+0000 INFO [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-10-02 00:50:56.765+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.766+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.766+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.767+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.767+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.767+0000 INFO [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-10-02 00:50:56.768+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.768+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.768+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-02 00:50:56.768+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2017-10-02 00:50:56.776+0000 INFO [o.n.k.i.DiagnosticsManager] Interface veth3e5c524:
+2017-10-02 00:50:56.776+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:7c51:24ff:fee1:ed92%veth3e5c524
+2017-10-02 00:50:56.776+0000 INFO [o.n.k.i.DiagnosticsManager] Interface docker0:
+2017-10-02 00:50:56.776+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 172.17.0.1
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager] Interface br-89f46dfb5cd6:
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:42:c9ff:fe5a:2ed2%br-89f46dfb5cd6
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 172.18.0.1
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager] Interface wlp3s0:
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2804:14d:baa6:93fc:f247:c71e:21f5:c74%wlp3s0
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2804:14d:baa6:93fc:d945:6d3e:d424:7068%wlp3s0
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2804:14d:baa6:93fc:9665:9cff:fe6c:bfa1%wlp3s0
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:41b:a66b:93f2:ed8d%wlp3s0
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 192.168.0.16
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-10-02 00:50:56.777+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-10-02 00:50:56.778+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-10-02 00:50:57.484+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-10-02 00:50:57.486+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7472.
+2017-10-02 00:50:57.869+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db
+2017-10-02 00:50:57.989+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db
+2017-10-02 00:50:57.989+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_2[v0.A.8]
+2017-10-02 00:50:58.463+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2017-10-02 00:50:58.505+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Scan store recovery completed: Number of cleaned crashed pointers: 0 Number of pages visited: 3 Time spent: 3ms
+2017-10-02 00:50:58.645+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=58675})
+2017-10-02 00:50:58.647+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels] ...
+2017-10-02 00:50:58.712+0000 INFO [o.n.k.i.s.DynamicArrayStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels] high id=1 (defragged=0)
+2017-10-02 00:50:58.712+0000 INFO [o.n.k.i.s.DynamicArrayStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2017-10-02 00:50:58.712+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db] ...
+2017-10-02 00:50:58.792+0000 INFO [o.n.k.i.s.NodeStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db] high id=159 (defragged=0)
+2017-10-02 00:50:58.793+0000 INFO [o.n.k.i.s.NodeStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db rebuild id generator, highId=159 defragged count=0
+2017-10-02 00:50:58.793+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys] ...
+2017-10-02 00:50:58.859+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys] high id=2 (defragged=0)
+2017-10-02 00:50:58.859+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2017-10-02 00:50:58.859+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index] ...
+2017-10-02 00:50:58.926+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index] high id=1 (defragged=0)
+2017-10-02 00:50:58.926+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2017-10-02 00:50:58.947+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings] ...
+2017-10-02 00:50:59.014+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings] high id=1 (defragged=0)
+2017-10-02 00:50:59.015+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2017-10-02 00:50:59.015+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays] ...
+2017-10-02 00:50:59.081+0000 INFO [o.n.k.i.s.DynamicArrayStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2017-10-02 00:50:59.081+0000 INFO [o.n.k.i.s.DynamicArrayStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2017-10-02 00:50:59.081+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db] ...
+2017-10-02 00:50:59.136+0000 INFO [o.n.k.i.s.PropertyStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db] high id=18 (defragged=0)
+2017-10-02 00:50:59.136+0000 INFO [o.n.k.i.s.PropertyStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db rebuild id generator, highId=18 defragged count=0
+2017-10-02 00:50:59.136+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db] ...
+2017-10-02 00:50:59.203+0000 INFO [o.n.k.i.s.RelationshipStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db] high id=118 (defragged=0)
+2017-10-02 00:50:59.203+0000 INFO [o.n.k.i.s.RelationshipStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db rebuild id generator, highId=118 defragged count=0
+2017-10-02 00:50:59.203+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names] ...
+2017-10-02 00:50:59.270+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names] high id=15 (defragged=0)
+2017-10-02 00:50:59.270+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names rebuild id generator, highId=15 defragged count=0
+2017-10-02 00:50:59.270+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db] ...
+2017-10-02 00:50:59.326+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db] high id=14 (defragged=0)
+2017-10-02 00:50:59.326+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db rebuild id generator, highId=14 defragged count=0
+2017-10-02 00:50:59.347+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names] ...
+2017-10-02 00:50:59.403+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names] high id=4 (defragged=0)
+2017-10-02 00:50:59.403+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names rebuild id generator, highId=4 defragged count=0
+2017-10-02 00:50:59.403+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db] ...
+2017-10-02 00:50:59.458+0000 INFO [o.n.k.i.s.LabelTokenStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db] high id=3 (defragged=0)
+2017-10-02 00:50:59.458+0000 INFO [o.n.k.i.s.LabelTokenStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db rebuild id generator, highId=3 defragged count=0
+2017-10-02 00:50:59.480+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db] ...
+2017-10-02 00:50:59.536+0000 INFO [o.n.k.i.s.SchemaStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db] high id=1 (defragged=0)
+2017-10-02 00:50:59.536+0000 INFO [o.n.k.i.s.SchemaStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2017-10-02 00:50:59.536+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db] ...
+2017-10-02 00:50:59.592+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2017-10-02 00:50:59.592+0000 INFO [o.n.k.i.s.RelationshipGroupStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2017-10-02 00:50:59.592+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore] ...
+2017-10-02 00:50:59.647+0000 INFO [o.n.k.i.s.MetaDataStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore] high id=15 (defragged=0)
+2017-10-02 00:50:59.647+0000 INFO [o.n.k.i.s.MetaDataStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore rebuild id generator, highId=15 defragged count=0
+2017-10-02 00:50:59.651+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2017-10-02 00:50:59.654+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-10-02 00:51:00.591+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-10-02 00:51:00.592+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-10-02 00:51:00.594+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-10-02 00:51:00.594+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1503457564659, randomId=5459207785891115303, storeVersion=15813456178476550, upgradeTime=1503457564659, upgradeId=1}
+2017-10-02 00:51:00.594+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.2.3,36205d3138eff7e252a34c1a0224f84ad8747758
+2017-10-02 00:51:00.594+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-02 00:51:00.597+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-10-02 00:51:00.598+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-10-02 00:51:00.599+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-10-02 00:51:00.599+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-10-02 00:51:00.599+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=159 high=158
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=2 high=1
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=1 high=0
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=18 high=17
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=118 high=117
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=15 high=14
+2017-10-02 00:51:00.600+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=14 high=13
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=3 high=2
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-10-02 00:51:00.601+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-10-02 00:51:00.602+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1503457564659
+2017-10-02 00:51:00.602+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 5459207785891115303
+2017-10-02 00:51:00.602+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-10-02 00:51:00.602+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 56
+2017-10-02 00:51:00.602+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2017-10-02 00:51:00.602+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1503457564659
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -161062877063
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 58675
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1505788178705
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-10-02 00:51:00.603+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-10-02 00:51:00.605+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-10-02 00:51:00.605+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-10-02 00:51:00.607+0000 INFO [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-10-02 00:51:00.607+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-10-02 00:51:00.607+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-10-02 00:51:00.608+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 974535651328 / 931560878080 / 95
+Storage files: (filename : modification date - size)
+2017-10-02 00:51:00.609+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2017-10-02 00:51:00.611+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-08-23T00:06:04-0300 - 0,00 B
+2017-10-02 00:51:00.612+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2017-09-18T23:44:03-0300 - 8,00 kB
+2017-10-02 00:51:00.614+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-09-18T23:44:03-0300 - 544,00 B
+2017-10-02 00:51:00.614+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-09-18T23:29:03-0300 - 544,00 B
+2017-10-02 00:51:00.614+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.615+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2017-10-01T21:50:58-0300 - 48,00 kB
+2017-10-02 00:51:00.615+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-09-18T22:59:02-0300 - 8,00 kB
+2017-10-02 00:51:00.615+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.615+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-09-18T22:59:02-0300 - 8,00 kB
+2017-10-02 00:51:00.615+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.617+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-09-18T23:44:03-0300 - 8,00 kB
+2017-10-02 00:51:00.617+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-10-01T21:50:58-0300 - 9,00 B
+2017-10-02 00:51:00.617+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-08-23T00:06:03-0300 - 8,00 kB
+2017-10-02 00:51:00.618+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-10-01T21:50:58-0300 - 9,00 B
+2017-10-02 00:51:00.618+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-09-18T23:44:03-0300 - 7,97 kB
+2017-10-02 00:51:00.618+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-08-23T00:06:03-0300 - 8,00 kB
+2017-10-02 00:51:00.618+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.618+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-09-18T21:20:14-0300 - 8,00 kB
+2017-10-02 00:51:00.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-10-01T21:50:58-0300 - 9,00 B
+2017-10-02 00:51:00.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-08-23T09:33:22-0300 - 8,00 kB
+2017-10-02 00:51:00.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-10-01T21:50:58-0300 - 9,00 B
+2017-10-02 00:51:00.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-08-23T00:06:03-0300 - 8,00 kB
+2017-10-02 00:51:00.619+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-10-01T21:50:58-0300 - 9,00 B
+2017-10-02 00:51:00.620+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-08-23T00:06:04-0300 - 8,00 kB
+2017-10-02 00:51:00.620+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.620+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-09-18T23:44:03-0300 - 7,97 kB
+2017-10-02 00:51:00.620+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.620+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-09-18T23:14:02-0300 - 8,00 kB
+2017-10-02 00:51:00.620+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-09-18T23:14:02-0300 - 8,00 kB
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-08-23T00:06:04-0300 - 8,00 kB
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-10-01T21:50:59-0300 - 9,00 B
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-09-18T23:44:03-0300 - 57,32 kB
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2017-08-23T00:06:03-0300 - 0,00 B
+2017-10-02 00:51:00.621+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-10-02 00:51:03.033+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-10-02 00:51:04.535+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2017-10-02 01:20:49.692+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting check pointing...
+2017-10-02 01:20:49.692+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting store flush...
+2017-10-02 01:20:49.756+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 59 to [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-10-02 01:20:49.767+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 59 to [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.counts.db.b], from [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.counts.db.a].
+2017-10-02 01:20:49.992+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Store flush completed
+2017-10-02 01:20:49.992+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Starting appending check point entry into the tx log...
+2017-10-02 01:20:50.044+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Appending check point entry into the tx log completed
+2017-10-02 01:20:50.044+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [59]:  Check pointing completed
+2017-10-02 01:20:50.044+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2017-10-02 01:20:50.044+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2017-10-04 13:01:17.205+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3103983616 bytes will be used instead. 
+2017-10-04 13:01:18.251+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2017-10-04 13:01:18.509+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2017-10-04 13:01:18.541+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=false
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.type=BOLT
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.listen_address=localhost:7474
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2017-10-04 13:01:18.542+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=false
+2017-10-04 13:01:18.543+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.http.type=HTTP
+2017-10-04 13:01:18.543+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
+2017-10-04 13:01:18.543+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.tx_log.rotation.retention_policy=1 days
+2017-10-04 13:01:18.543+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.windows_service_name=neo4j
+2017-10-04 13:01:18.543+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.listen_address=localhost:7473
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.listen_address=localhost:7472
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.https.type=HTTP
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2017-10-04 13:01:18.546+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2017-10-04 13:01:18.547+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2017-10-04 13:01:18.547+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2017-10-04 13:01:18.547+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2017-10-04 13:01:18.547+0000 INFO [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2017-10-04 13:01:18.547+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2017-10-04 13:01:18.547+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2017-10-04 13:01:18.566+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 7,71 GB
+2017-10-04 13:01:18.566+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 4,36 GB
+2017-10-04 13:01:18.566+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 4,82 GB
+2017-10-04 13:01:18.566+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 7,92 GB
+2017-10-04 13:01:18.567+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 7,92 GB
+2017-10-04 13:01:18.567+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2017-10-04 13:01:18.567+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 72,05 MB
+2017-10-04 13:01:18.567+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 124,00 MB
+2017-10-04 13:01:18.567+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 1,93 GB
+2017-10-04 13:01:18.587+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Young Generation: [G1 Eden Space, G1 Survivor Space]
+2017-10-04 13:01:18.587+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: G1 Old Generation: [G1 Eden Space, G1 Survivor Space, G1 Old Gen]
+2017-10-04 13:01:18.588+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=4,94 MB, used=4,91 MB, max=240,00 MB, threshold=0,00 B
+2017-10-04 13:01:18.588+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=13,50 MB, used=12,55 MB, max=-1,00 B, threshold=0,00 B
+2017-10-04 13:01:18.588+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2,00 MB, used=1,69 MB, max=1,00 GB, threshold=0,00 B
+2017-10-04 13:01:18.589+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Eden Space (Heap memory): committed=52,00 MB, used=19,00 MB, max=-1,00 B, threshold=?
+2017-10-04 13:01:18.589+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Survivor Space (Heap memory): committed=3,00 MB, used=3,00 MB, max=-1,00 B, threshold=?
+2017-10-04 13:01:18.589+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: G1 Old Gen (Heap memory): committed=69,00 MB, used=29,45 MB, max=1,93 GB, threshold=0,00 B
+2017-10-04 13:01:18.589+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2017-10-04 13:01:18.590+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.10.0-35-generic; arch: amd64; cpus: 4
+2017-10-04 13:01:18.590+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 4096
+2017-10-04 13:01:18.590+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 101
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 26133@RD1489
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: America/Sao_Paulo
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2017-10-04 13:01:18.591+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.144-b01
+2017-10-04 13:01:18.592+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2017-10-04 13:01:18.593+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:+AlwaysPreTouch, -XX:+UnlockExperimentalVMOptions, -XX:+TrustFinalNonStaticFields, -XX:+DisableExplicitGC, -Djdk.tls.ephemeralDHKeySize=2048, -Dunsupported.dbms.udc.source=tarball, -Dfile.encoding=UTF-8]
+2017-10-04 13:01:18.593+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-bolt-3.2.3.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-servlet-9.2.9.v20150224.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-http-9.2.9.v20150224.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-frontend-3.1-3.1.5.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-import-tool-3.2.3.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/conf/
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/scala-reflect-2.11.8.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-webapp-9.2.9.v20150224.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/bcprov-jdk15on-1.53.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-jmx-3.2.3.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-udc-3.2.3.jar
+2017-10-04 13:01:18.595+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-logging-3.2.3.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/plugins/*
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-security-3.2.3.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-lang-2.6.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jackson-core-asl-1.9.13.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jsr311-api-1.1.2.r612.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-unsafe-3.2.3.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/netty-all-4.1.8.Final.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-io-2.4.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-frontend-3.2-3.2.3.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-xml-9.2.9.v20150224.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-compiler-3.1-3.1.5.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/caffeine-2.3.3.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/asm-5.2.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-lucene-upgrade-3.2.3.jar
+2017-10-04 13:01:18.596+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-lucene-index-3.2.3.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-3.2.3.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/parboiled-scala_2.11-1.1.7.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-server-3.2.3.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/concurrentlinkedhashmap-lru-1.4.2.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/parboiled-core-1.1.7.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-queryparser-5.5.0.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/server-api-3.2.3.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jackson-jaxrs-1.9.13.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/plugins/
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-core-1.19.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jline-2.12.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-shell-3.2.3.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/mimepull-1.9.3.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/jce.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/bcpkix-jdk15on-1.53.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-util-9.2.9.v20150224.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-frontend-2.3-2.3.11.jar
+2017-10-04 13:01:18.597+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-common-3.2.3.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-browser-3.0.5.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-logging-1.1.1.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-io-3.2.3.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/rhino-1.7R4.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jaccess.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-servlet-1.19.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-io-9.2.9.v20150224.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-codegen-3.2.3.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/scala-library-2.11.8.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-resource-3.2.3.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-graph-matching-3.1.3.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jackson-mapper-asl-1.9.13.jar
+2017-10-04 13:01:18.598+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-collections-3.2.3.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/javax.servlet-api-3.1.0.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-compiler-2.3-2.3.11.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-core-5.5.0.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-csv-3.2.3.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-index-3.2.3.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-compress-1.12.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-multipart-1.19.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-command-line-3.2.3.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jersey-server-1.19.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/classes
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-digester-2.1.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-codecs-5.5.0.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-security-9.2.9.v20150224.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-configuration-3.2.3.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-kernel-3.2.3.jar
+2017-10-04 13:01:18.599+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-configuration-1.10.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-ir-3.2-3.2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-beanutils-1.8.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-consistency-check-3.2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-cypher-compiler-3.2-3.2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-graph-algo-3.2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/jetty-server-9.2.9.v20150224.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-primitive-collections-3.2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-oracle/jre/lib/resources.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-dbms-3.2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/commons-lang3-3.3.2.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/opencsv-2.3.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/lucene-analyzers-common-5.5.0.jar
+2017-10-04 13:01:18.600+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-ssl-3.2.3.jar
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/lib/neo4j-graphdb-api-3.2.3.jar
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib64
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] /lib64
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] /lib
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib
+2017-10-04 13:01:18.601+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-8-oracle/jre/lib/amd64
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.country.format = BR
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /home/thiagochiarato/TCC/rdf2multimodel
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = tarball
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /home/thiagochiarato
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = America/Sao_Paulo
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = thiagochiarato
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = org.neo4j.server.CommunityEntryPoint --home-dir=/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development --config-dir=/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/conf
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2017-10-04 13:01:18.602+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] user.language.format = pt
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] jdk.tls.ephemeralDHKeySize = 2048
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] sun.desktop = gnome
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2017-10-04 13:01:18.603+0000 INFO [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2017-10-04 13:01:18.643+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.643+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.643+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.644+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.644+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.644+0000 INFO [o.n.k.i.DiagnosticsManager] noop deadline [cfq] 
+2017-10-04 13:01:18.644+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.645+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.645+0000 INFO [o.n.k.i.DiagnosticsManager] none
+2017-10-04 13:01:18.645+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2017-10-04 13:01:18.655+0000 INFO [o.n.k.i.DiagnosticsManager] Interface vethffa3c1b:
+2017-10-04 13:01:18.655+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:8878:a3ff:fe0a:ba9a%vethffa3c1b
+2017-10-04 13:01:18.655+0000 INFO [o.n.k.i.DiagnosticsManager] Interface docker0:
+2017-10-04 13:01:18.655+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 172.17.0.1
+2017-10-04 13:01:18.655+0000 INFO [o.n.k.i.DiagnosticsManager] Interface br-89f46dfb5cd6:
+2017-10-04 13:01:18.655+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:42:6bff:fec3:eab3%br-89f46dfb5cd6
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 172.18.0.1
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager] Interface wlp3s0:
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2804:14d:baa6:93fc:f247:c71e:21f5:c74%wlp3s0
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2804:14d:baa6:93fc:9665:9cff:fe6c:bfa1%wlp3s0
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:41b:a66b:93f2:ed8d%wlp3s0
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 2804:14d:baa6:93fc:a542:89ff:9bd3:9d35%wlp3s0
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 192.168.0.16
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo:
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1%lo
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2017-10-04 13:01:18.656+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2017-10-04 13:01:19.412+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2017-10-04 13:01:19.413+0000 INFO [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7472.
+2017-10-04 13:01:19.737+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db
+2017-10-04 13:01:19.920+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_2[v0.A.8] record format from store /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db
+2017-10-04 13:01:19.921+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_2[v0.A.8]
+2017-10-04 13:01:20.396+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2017-10-04 13:01:20.441+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Scan store recovery completed: Number of cleaned crashed pointers: 0 Number of pages visited: 3 Time spent: 3ms
+2017-10-04 13:01:20.466+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at LogPosition{logVersion=0, byteOffset=60669})
+2017-10-04 13:01:20.468+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels] ...
+2017-10-04 13:01:20.556+0000 INFO [o.n.k.i.s.DynamicArrayStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels] high id=1 (defragged=0)
+2017-10-04 13:01:20.556+0000 INFO [o.n.k.i.s.DynamicArrayStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2017-10-04 13:01:20.556+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db] ...
+2017-10-04 13:01:20.617+0000 INFO [o.n.k.i.s.NodeStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db] high id=161 (defragged=0)
+2017-10-04 13:01:20.617+0000 INFO [o.n.k.i.s.NodeStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.nodestore.db rebuild id generator, highId=161 defragged count=0
+2017-10-04 13:01:20.618+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys] ...
+2017-10-04 13:01:20.670+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys] high id=2 (defragged=0)
+2017-10-04 13:01:20.670+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index.keys rebuild id generator, highId=2 defragged count=0
+2017-10-04 13:01:20.670+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index] ...
+2017-10-04 13:01:20.738+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index] high id=1 (defragged=0)
+2017-10-04 13:01:20.738+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.index rebuild id generator, highId=1 defragged count=0
+2017-10-04 13:01:20.760+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings] ...
+2017-10-04 13:01:20.827+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings] high id=1 (defragged=0)
+2017-10-04 13:01:20.827+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2017-10-04 13:01:20.827+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays] ...
+2017-10-04 13:01:20.882+0000 INFO [o.n.k.i.s.DynamicArrayStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2017-10-04 13:01:20.882+0000 INFO [o.n.k.i.s.DynamicArrayStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2017-10-04 13:01:20.882+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db] ...
+2017-10-04 13:01:20.938+0000 INFO [o.n.k.i.s.PropertyStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db] high id=20 (defragged=0)
+2017-10-04 13:01:20.938+0000 INFO [o.n.k.i.s.PropertyStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.propertystore.db rebuild id generator, highId=20 defragged count=0
+2017-10-04 13:01:20.938+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db] ...
+2017-10-04 13:01:21.006+0000 INFO [o.n.k.i.s.RelationshipStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db] high id=121 (defragged=0)
+2017-10-04 13:01:21.006+0000 INFO [o.n.k.i.s.RelationshipStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipstore.db rebuild id generator, highId=121 defragged count=0
+2017-10-04 13:01:21.006+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names] ...
+2017-10-04 13:01:21.060+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names] high id=15 (defragged=0)
+2017-10-04 13:01:21.060+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db.names rebuild id generator, highId=15 defragged count=0
+2017-10-04 13:01:21.060+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db] ...
+2017-10-04 13:01:21.126+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db] high id=14 (defragged=0)
+2017-10-04 13:01:21.127+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshiptypestore.db rebuild id generator, highId=14 defragged count=0
+2017-10-04 13:01:21.148+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names] ...
+2017-10-04 13:01:21.214+0000 INFO [o.n.k.i.s.DynamicStringStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names] high id=4 (defragged=0)
+2017-10-04 13:01:21.214+0000 INFO [o.n.k.i.s.DynamicStringStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db.names rebuild id generator, highId=4 defragged count=0
+2017-10-04 13:01:21.214+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db] ...
+2017-10-04 13:01:21.271+0000 INFO [o.n.k.i.s.LabelTokenStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db] high id=3 (defragged=0)
+2017-10-04 13:01:21.271+0000 INFO [o.n.k.i.s.LabelTokenStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.labeltokenstore.db rebuild id generator, highId=3 defragged count=0
+2017-10-04 13:01:21.293+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db] ...
+2017-10-04 13:01:21.348+0000 INFO [o.n.k.i.s.SchemaStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db] high id=1 (defragged=0)
+2017-10-04 13:01:21.348+0000 INFO [o.n.k.i.s.SchemaStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2017-10-04 13:01:21.349+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db] ...
+2017-10-04 13:01:21.404+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2017-10-04 13:01:21.404+0000 INFO [o.n.k.i.s.RelationshipGroupStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2017-10-04 13:01:21.404+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore] ...
+2017-10-04 13:01:21.469+0000 INFO [o.n.k.i.s.MetaDataStore] [/home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore] high id=15 (defragged=0)
+2017-10-04 13:01:21.469+0000 INFO [o.n.k.i.s.MetaDataStore] /home/thiagochiarato/TCC/rdf2multimodel/db/neo4j/development/data/databases/graph.db/neostore rebuild id generator, highId=15 defragged count=0
+2017-10-04 13:01:21.473+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2017-10-04 13:01:21.500+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2017-10-04 13:01:22.690+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2017-10-04 13:01:22.690+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2017-10-04 13:01:22.692+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2017-10-04 13:01:22.692+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1503457564659, randomId=5459207785891115303, storeVersion=15813456178476550, upgradeTime=1503457564659, upgradeId=1}
+2017-10-04 13:01:22.692+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.2.3,36205d3138eff7e252a34c1a0224f84ad8747758
+2017-10-04 13:01:22.692+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2017-10-04 13:01:22.694+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=161 high=160
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=2 high=1
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=1 high=0
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2017-10-04 13:01:22.695+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=20 high=19
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=121 high=120
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=15 high=14
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=14 high=13
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=4 high=3
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=3 high=2
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2017-10-04 13:01:22.696+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1503457564659
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 5459207785891115303
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 59
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1503457564659
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -162224757983
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 60669
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1506905518306
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2017-10-04 13:01:22.697+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2017-10-04 13:01:22.698+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2017-10-04 13:01:22.698+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2017-10-04 13:01:22.699+0000 INFO [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2017-10-04 13:01:22.699+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2017-10-04 13:01:22.699+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2017-10-04 13:01:22.700+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 974535651328 / 931377422336 / 95
+Storage files: (filename : modification date - size)
+2017-10-04 13:01:22.700+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2017-10-04 13:01:22.700+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2017-08-23T00:06:04-0300 - 0,00 B
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2017-10-01T22:20:49-0300 - 8,00 kB
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2017-09-18T23:44:03-0300 - 544,00 B
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2017-10-01T22:20:49-0300 - 544,00 B
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2017-10-04T10:01:20-0300 - 48,00 kB
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2017-10-01T22:20:49-0300 - 8,00 kB
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2017-09-18T22:59:02-0300 - 8,00 kB
+2017-10-04 13:01:22.701+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2017-10-01T22:20:49-0300 - 8,00 kB
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2017-08-23T00:06:03-0300 - 8,00 kB
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2017-10-01T22:20:49-0300 - 7,97 kB
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2017-08-23T00:06:03-0300 - 8,00 kB
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.702+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2017-10-01T22:20:49-0300 - 8,00 kB
+2017-10-04 13:01:22.703+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.703+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2017-08-23T09:33:22-0300 - 8,00 kB
+2017-10-04 13:01:22.703+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.703+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2017-08-23T00:06:03-0300 - 8,00 kB
+2017-10-04 13:01:22.703+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.704+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2017-08-23T00:06:04-0300 - 8,00 kB
+2017-10-04 13:01:22.704+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.704+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2017-10-01T22:20:49-0300 - 7,97 kB
+2017-10-04 13:01:22.704+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2017-10-04T10:01:20-0300 - 9,00 B
+2017-10-04 13:01:22.704+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2017-10-01T22:20:49-0300 - 8,00 kB
+2017-10-04 13:01:22.704+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2017-09-18T23:14:02-0300 - 8,00 kB
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2017-08-23T00:06:04-0300 - 8,00 kB
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2017-10-04T10:01:21-0300 - 9,00 B
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2017-10-01T22:20:49-0300 - 59,26 kB
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2017-08-23T00:06:03-0300 - 0,00 B
+2017-10-04 13:01:22.705+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2017-10-04 13:01:25.109+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2017-10-04 13:01:26.626+0000 INFO [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---

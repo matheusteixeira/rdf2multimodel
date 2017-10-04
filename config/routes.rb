@@ -12,5 +12,5 @@ Rails.application.routes.draw do
   post '/insert-data', to: 'multimodel_connector#insert'
 
   # Parse SPARQL query -- To Cypher
-  post '/parse', to: 'parser#parse'
+  get '/parse', to: 'decision#decide'
 end
