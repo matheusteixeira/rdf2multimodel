@@ -1,6 +1,6 @@
 # Parse query and queries in Redis
 class KeyValueParser < ApplicationController
-  # "SELECT ?p WHERE { ?p IS_A_FRIEND_OF ?p . } LIMIT 1"
+  # "SELECT ?p WHERE { ?p IS_A_FRIEND_OF ?r } LIMIT 1"
 
   # "SELECT ?p WHERE { ?p IS_A_FRIEND_OF ?x . ?x LIKES Snowboarding } LIMIT 1"
 

@@ -1,6 +1,6 @@
 class GraphAdapterController < ApplicationController
   def insert
-    ::KeyValueAdapter.new(data).insert_data
+    ::GraphAdapter.new(data).insert_data
   end
 
   private
