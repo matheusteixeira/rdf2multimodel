@@ -13,6 +13,8 @@
 /db/neo4j/development/data/*
 /db/neo4j/development/logs/*
 /db/neo4j/development/run/*
+/db/neo4j/development/bin/*
+
 
 
 # Ignore all logfiles and tempfiles.
