@@ -10,7 +10,12 @@
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
-/db/neo4j/*
+/db/neo4j/development/data/*
+/db/neo4j/development/logs/*
+/db/neo4j/development/run/*
+/db/neo4j/development/bin/*
+
+
 
 # Ignore all logfiles and tempfiles.
 /log/*
