@@ -179,3 +179,42 @@ nohup: ignoring input
 2017-10-04 13:01:19.412+0000 INFO  Bolt enabled on localhost:7472.
 2017-10-04 13:01:25.108+0000 INFO  Started.
 2017-10-04 13:01:26.626+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-10-08 20:19:32.628+0000 INFO  ======== Neo4j 3.2.3 ========
+2017-10-08 20:19:32.726+0000 INFO  Starting...
+2017-10-08 20:19:35.445+0000 INFO  Bolt enabled on localhost:7472.
+2017-10-08 20:19:43.000+0000 INFO  Started.
+2017-10-08 20:19:45.443+0000 INFO  Remote interface available at http://localhost:7474/
+2017-10-08 20:36:12.441+0000 ERROR Client triggered an unexpected error [ExecutionFailed]: The shortest path algorithm does not work when the start and end nodes are the same. This can happen if you
+perform a shortestPath search after a cartesian product that might have the same start and end nodes for some
+of the rows passed to shortestPath. If you would rather not experience this exception, and can accept the
+possibility of missing results for those rows, disable this in the Neo4j configuration by setting
+`cypher.forbid_shortestpath_common_node` to false. If you cannot accept missing results, and really want the
+shortestPath between two common nodes, then re-write the query using a standard Cypher variable length pattern
+expression followed by ordering by path length and limiting to one result., reference 182c025f-7b64-49ef-8e2b-c60a88cbf9b1.
+2017-10-08 20:37:19.653+0000 ERROR Client triggered an unexpected error [ExecutionFailed]: The shortest path algorithm does not work when the start and end nodes are the same. This can happen if you
+perform a shortestPath search after a cartesian product that might have the same start and end nodes for some
+of the rows passed to shortestPath. If you would rather not experience this exception, and can accept the
+possibility of missing results for those rows, disable this in the Neo4j configuration by setting
+`cypher.forbid_shortestpath_common_node` to false. If you cannot accept missing results, and really want the
+shortestPath between two common nodes, then re-write the query using a standard Cypher variable length pattern
+expression followed by ordering by path length and limiting to one result., reference 3d99766b-1521-418b-b79c-57f58176d29d.
+2017-10-08 20:37:24.700+0000 ERROR Client triggered an unexpected error [ExecutionFailed]: The shortest path algorithm does not work when the start and end nodes are the same. This can happen if you
+perform a shortestPath search after a cartesian product that might have the same start and end nodes for some
+of the rows passed to shortestPath. If you would rather not experience this exception, and can accept the
+possibility of missing results for those rows, disable this in the Neo4j configuration by setting
+`cypher.forbid_shortestpath_common_node` to false. If you cannot accept missing results, and really want the
+shortestPath between two common nodes, then re-write the query using a standard Cypher variable length pattern
+expression followed by ordering by path length and limiting to one result., reference 08400b9a-44ea-4991-9fa7-74c55921e39d.
+nohup: ignoring input
+2017-10-10 00:26:58.845+0000 INFO  ======== Neo4j 3.2.3 ========
+2017-10-10 00:26:58.965+0000 INFO  Starting...
+2017-10-10 00:27:01.471+0000 INFO  Bolt enabled on localhost:7472.
+2017-10-10 00:27:07.318+0000 INFO  Started.
+2017-10-10 00:27:09.119+0000 INFO  Remote interface available at http://localhost:7474/
+nohup: ignoring input
+2017-10-12 03:15:42.821+0000 INFO  ======== Neo4j 3.2.3 ========
+2017-10-12 03:15:42.934+0000 INFO  Starting...
+2017-10-12 03:15:45.748+0000 INFO  Bolt enabled on localhost:7472.
+2017-10-12 03:15:52.526+0000 INFO  Started.
+2017-10-12 03:15:55.141+0000 INFO  Remote interface available at http://localhost:7474/
