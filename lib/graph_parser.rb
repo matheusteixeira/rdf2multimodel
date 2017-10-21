@@ -1,10 +1,4 @@
 class GraphParser < ApplicationController
-  # "SELECT ?p WHERE { ?p r:IS_A_FRIEND_OF ?p . } LIMIT 1"
-
-  # "SELECT ?p WHERE { ?p IS_A_FRIEND_OF ?x . ?x LIKES 'Guitar' } LIMIT 1"
-
-  # "MATCH (n0)-[:IS_A_FRIEND_OF]->(n1)-[:LIKES]->(n2 {name:"Guitar"}) RETURN n0"
-
   def initialize(query)
     @query = query
   end

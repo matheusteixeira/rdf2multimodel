@@ -1,10 +1,4 @@
 class ParserController < ApplicationController
-  # "SELECT ?p WHERE { ?p r:IS_A_FRIEND_OF ?p . } LIMIT 1"
-
-  # "SELECT ?p WHERE { ?p r:IS_A_FRIEND_OF ?x . ?x LIKES Snowboarding } LIMIT 1"
-
-  # MATCH p=()-[r:IS_A_FRIEND_OF]->() RETURN p
-
   def parse
     result = execute(translate_pattern + translate_result + query_modifier)
 

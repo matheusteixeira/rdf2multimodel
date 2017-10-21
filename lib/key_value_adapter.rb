@@ -1,5 +1,4 @@
 class KeyValueAdapter
-
   attr_reader :data
 
   def initialize(data)

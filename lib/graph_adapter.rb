@@ -1,5 +1,4 @@
 class GraphAdapter
-
   attr_reader :data
 
   def initialize(data)
