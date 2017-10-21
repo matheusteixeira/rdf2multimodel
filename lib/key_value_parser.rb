@@ -6,7 +6,7 @@ class KeyValueParser < ApplicationController
   def parse
     parse_key.each_with_object([]) do |key, result|
       next if key == ':'
-      result << "#{key.split(':')}, #{redis.smembers(key)}"
+      result << key.split(':')[0]
     end
   end
 
