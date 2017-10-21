@@ -12,7 +12,7 @@ class KeyValueAdapter
     end
   end
 
-  # sp = Subejct Predicate
+  # Save Triple as SP* => O
   def save_triple_sp(triple)
     redis.sadd(key_sp(triple), value_sp(triple))
   end
@@ -31,7 +31,7 @@ class KeyValueAdapter
     triple[2].upcase
   end
 
-  # p = predicate
+  # Save Triple as *P* => SPO
   def save_triple_p(triple)
     redis.sadd(key_p(triple), value_p(triple))
   end
