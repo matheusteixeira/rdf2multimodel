@@ -97,3 +97,10 @@ It'll persist this graph in Neo4j Following the strategy:
     - Jill
     - John
     - James
+
+  - **GET**:
+  ```
+  http://localhost:3010/parse?query=SELECT ?p WHERE { ?p IS_A_FRIEND_OF 'Jesse' }
+  ```
+  - For the test data mentioned above, it'll return:
+    - James
